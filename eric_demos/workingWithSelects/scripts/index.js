@@ -239,8 +239,7 @@ window.onload = function(){
 
     initDropdownOptions();
 
-    //get the button off the page
-    let theButton = document.querySelector("#theButton");
+    let usersSelectBox = document.querySelector("#usersSelect");
 
     //get emptyDropdown Button
     let emptyButton = document.querySelector("#emptyDropdown");
@@ -248,7 +247,7 @@ window.onload = function(){
     let fillDropdown = document.querySelector("#fillDropdown");
 
     //do something when the button is clicked
-    theButton.addEventListener("click", displayUserInfo)
+    usersSelectBox.addEventListener("change", displayUserInfo)
 
     emptyButton.addEventListener("click", clearThatDropdown)
 
