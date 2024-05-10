@@ -33,15 +33,15 @@
 //if you want to sort a list of objects based on some property in the object you 
 //can modify the compare function to include the property name
 // in this case we are using the studentID property
-// function compareFnForObjectProperties(a, b) {
-//     if (a.studentID < b.studentID) {
-//       return -1;
-//     } else if (b.studentID > a.studentID) {
-//       return 1;
-//     }
-//     // a must be equal to b
-//     return 0;
-//   }
+function compareFnForObjectProperties(a, b) {
+    if (a.studentID < b.studentID) {
+      return -1;
+    } else if (b.studentID > a.studentID) {
+      return 1;
+    }
+    // a must be equal to b
+    return 0;
+  }
 
 
 let listOfnames = ["Eric", "Alec", "Italy", "Antonio", "Wilfredo"];
